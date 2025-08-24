@@ -92,7 +92,7 @@ const PsycRnD = () => {
           viewport={{ once: true, margin: "-100px" }}
         >
           <motion.div className="text-center mb-16" variants={itemVariants}>
-            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Research & Development</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 drop-shadow-[0_0_20px_rgba(255,255,255,0.6)]">Research & Development</h2>
             <div className="w-24 h-1 bg-black mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Pioneering the future of aerospace technology through continuous innovation and 
