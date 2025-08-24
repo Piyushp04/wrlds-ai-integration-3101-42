@@ -54,7 +54,7 @@ const PsycHero = () => {
           >
             <span className="block">PSYC</span>
             <span className="block text-gray-300 text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-2">
-              Aerospace and Defence Company
+              Aerospace and Defence Industries
             </span>
           </motion.h1>
 

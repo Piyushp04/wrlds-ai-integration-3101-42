@@ -20,9 +20,13 @@ const PsycNavbar = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-xl font-bold text-black hover:text-gray-700 transition-colors"
+              className="hover:opacity-80 transition-opacity"
             >
-              PSYC
+              <img 
+                src="/logo.png" 
+                alt="PSYC Logo" 
+                className="h-8 w-auto"
+              />
             </button>
           </div>
 

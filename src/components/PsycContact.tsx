@@ -94,14 +94,44 @@ const PsycContact = () => {
                   <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h4 className="text-lg font-semibold text-black mb-1">Address</h4>
-                    <p className="text-gray-600">
-                      PSYC Aerospace and Defence<br />
-                      1234 Innovation Drive<br />
-                      Technology Park, Suite 500<br />
-                      Silicon Valley, CA 94043
-                    </p>
+                    <div className="space-y-6">
+                      <div>
+                        <p className="text-gray-600">
+                          <strong>Registered Office:</strong><br />
+                          C/O T N VISHUKUMAR<br />
+                          Lingadahalli Main Road<br />
+                          Tarikere, Chickmagalur<br />
+                          Karnataka - 577228
+                        </p>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 -mt-2">
+                        <div>
+                          <p className="text-gray-600">
+                            <strong>Incubated at:</strong><br />
+                            AICDSU Foundation<br />
+                            VJPR+WGG, Service Rd<br />
+                            Kudlu Main Rd, Srinivasa Nagar<br />
+                            Hal Layout, Singasandra<br />
+                            Bengaluru, Karnataka - 560068
+                          </p>
+                        </div>
+                        <div className="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1234567890123!2d77.61234567890123!3d12.98765432109876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0e0e0e0e0e0%3A0x0!2zMTLCsDU5JzEyLjAiTiA3N8KwMzYnNDQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="PSYC Office Locations"
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

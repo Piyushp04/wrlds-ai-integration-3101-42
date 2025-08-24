@@ -14,18 +14,17 @@ const PsycPageLayout = ({ children }: PsycPageLayoutProps) => {
       </main>
       
       {/* Footer */}
-      <footer className="bg-black text-white py-12">
+      <footer className="bg-gradient-to-b from-black to-gray-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
-              <h3 className="text-2xl font-bold mb-4">PSYC</h3>
-              <p className="text-gray-300 mb-4 max-w-md">
-                Aerospace and Defence Company specializing in AI-first payload systems, 
-                computer vision, and automation for next-generation drone operations.
-              </p>
-              <p className="text-gray-400 text-sm">
-                © 2024 PSYC Aerospace and Defence Company. All rights reserved.
-              </p>
+              <div className="flex items-center space-x-2 mb-4">
+                <img 
+                  src="/logo.png" 
+                  alt="PSYC Logo" 
+                  className="h-16 w-auto"
+                />
+              </div>
             </div>
             
             <div>
@@ -39,7 +38,7 @@ const PsycPageLayout = ({ children }: PsycPageLayoutProps) => {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <h4 className="text-lg font-semibold mb-4">Industries</h4>
               <ul className="space-y-2 text-gray-300">
                 <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="#rnd" className="hover:text-white transition-colors">Research & Development</a></li>
@@ -47,12 +46,25 @@ const PsycPageLayout = ({ children }: PsycPageLayoutProps) => {
                 <li><a href="#contact" className="hover:text-white transition-colors">Careers</a></li>
               </ul>
             </div>
+            
+
           </div>
           
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400 text-sm">
-              Advancing aerospace technology through innovation and precision engineering.
-            </p>
+          <div className="border-t border-gray-800 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <p className="text-gray-400 text-sm mb-4 md:mb-0">
+                © 2025 PSYC Aerospace and Defence Industries Pvt. Ltd. All rights reserved.
+              </p>
+              <div className="flex items-center space-x-4">
+                <p className="text-gray-400 text-sm text-center">
+                  Advancing aerospace technology through innovation and precision engineering.
+                </p>
+                <span className="text-gray-400">|</span>
+                <a href="/privacy-policy" className="text-gray-400 text-sm hover:text-white transition-colors">
+                  Privacy Policy
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
