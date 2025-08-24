@@ -41,7 +41,7 @@ const PsycHero = () => {
         }}></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-12 sm:pb-16 md:pb-20">
         <motion.div 
           className="text-center"
           variants={containerVariants}
@@ -49,41 +49,41 @@ const PsycHero = () => {
           animate="visible"
         >
           <motion.h1 
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6"
             variants={itemVariants}
           >
             <span className="block">PSYC</span>
-            <span className="block text-gray-300 text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-2">
+            <span className="block text-gray-300 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-1 sm:mt-2">
               Aerospace and Defence Industries
             </span>
           </motion.h1>
 
           <motion.div 
-            className="w-24 h-1 bg-white mx-auto mb-8"
+            className="w-16 sm:w-20 md:w-24 h-1 bg-white mx-auto mb-6 sm:mb-8"
             variants={itemVariants}
           ></motion.div>
 
           <motion.p 
-            className="text-xl sm:text-2xl md:text-3xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-200 mb-8 sm:mb-10 md:mb-12 max-w-3xl sm:max-w-4xl mx-auto leading-relaxed px-4 sm:px-0"
             variants={itemVariants}
           >
             AI-First Payload Systems | Computer Vision & Automation for Next-Gen Drones
           </motion.p>
 
           <motion.div 
-            className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
+            className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-12 sm:mb-14 md:mb-16"
             variants={itemVariants}
           >
             <button
               onClick={() => scrollToSection('capabilities')}
-              className="px-8 py-4 bg-white text-black font-semibold rounded-md hover:bg-gray-200 transition-all duration-300 flex items-center justify-center group"
+              className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-black font-semibold rounded-md hover:bg-gray-200 transition-all duration-300 flex items-center justify-center group text-sm sm:text-base"
             >
               Explore Capabilities
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-8 py-4 border border-white text-white font-semibold rounded-md hover:bg-white hover:text-black transition-all duration-300"
+              className="px-6 sm:px-8 py-3 sm:py-4 border border-white text-white font-semibold rounded-md hover:bg-white hover:text-black transition-all duration-300 text-sm sm:text-base"
             >
               Get in Touch
             </button>
@@ -91,11 +91,11 @@ const PsycHero = () => {
 
           {/* Feature highlights */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20"
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mt-16 sm:mt-18 md:mt-20"
             variants={containerVariants}
           >
             <motion.div 
-              className="text-center p-6 border border-gray-700 rounded-lg hover:border-gray-500 transition-colors"
+              className="text-center p-4 sm:p-6 border border-gray-700 rounded-lg hover:border-gray-500 transition-colors"
               variants={itemVariants}
             >
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">

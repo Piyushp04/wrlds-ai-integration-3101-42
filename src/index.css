@@ -84,6 +84,23 @@
   overflow: hidden;
 }
 
+/* Force aerospace color overrides */
+.force-aerospace-dark {
+  background-color: hsl(var(--aerospace-dark)) !important;
+}
+
+.force-aerospace-medium {
+  background-color: hsl(var(--aerospace-medium)) !important;
+}
+
+.force-aerospace-light {
+  background-color: hsl(var(--aerospace-light)) !important;
+}
+
+.force-aerospace-accent {
+  background-color: hsl(var(--aerospace-accent)) !important;
+}
+
 .banner-overlay {
   position: absolute;
   top: 0;
